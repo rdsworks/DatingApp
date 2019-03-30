@@ -1,9 +1,9 @@
-import { BlockingProxy } from "blocking-proxy";
+import { BlockingProxy } from 'blocking-proxy';
 
 export interface Photo {
     id: number;
     url: string;
     description: string;
-    datesAdded: Date;
+    dateAdded: Date;
     isMain: boolean;
 }
